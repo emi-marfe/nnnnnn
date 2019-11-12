@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.afrosurv.ICGC_Hamburg">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".Login"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".Web"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/icgc_view"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Chat"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".Users"
+            android:configChanges="orientation|screenSize"></activity>
+        <activity
+            android:name=".ContactActivity"
+            android:configChanges="orientation|screenSize"></activity>
+        <activity
+            android:name=".FacebookPage"
+            android:configChanges="orientation|screenSize"></activity>
+        <activity android:name=".StudyGermany"></activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <WebView
+            android:id="@+id/activity_webStudy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/btn_rounded"
+                android:elevation="6dp"
+                android:padding="10dp"
+                android:text="@string/button_main"
+                android:textColor="@color/color_buttons"
+                android:translationZ="0dp" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/btn_rounded"
+                android:elevation="6dp"
+                android:padding="10dp"
+                android:text="@string/button_contact_us"
+                android:textColor="@color/color_buttons"
+                android:translationZ="0dp" />
+
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/btn_rounded"
+                android:elevation="6dp"
+                android:padding="10dp"
+                android:text="@string/button_instagram"
+                android:textColor="@color/color_buttons"
+                android:translationZ="0dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/btn_rounded"
+                android:elevation="6dp"
+                android:padding="10dp"
+                android:text="@string/button_faccbook"
+                android:textColor="@color/color_buttons"
+                android:translationZ="0dp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/btn_rounded"
+                android:elevation="6dp"
+                android:padding="10dp"
+                android:text="@string/button_chat"
+                android:textColor="@color/color_buttons"
+                android:translationZ="0dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

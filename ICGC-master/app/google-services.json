@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "581217601286",
+    "firebase_url": "https://afgeotech-software-development.firebaseio.com",
+    "project_id": "afgeotech-software-development",
+    "storage_bucket": "afgeotech-software-development.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581217601286:android:fe16ce483c28f913e14087",
+        "android_client_info": {
+          "package_name": "com.afrosurv.ICGC_Germany"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581217601286-odqorp1n8earsf0uggk60b81flsh8298.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA70HFw6uVddBzG8EeqouzkCB-IubCmqS8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581217601286-odqorp1n8earsf0uggk60b81flsh8298.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581217601286:android:5824a06027aeb32fe14087",
+        "android_client_info": {
+          "package_name": "com.afrosurv.ICGC_Hamburg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581217601286-rdg676g7lvotfo5ihco64uq2uli7uvbi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.afrosurv.ICGC_Hamburg",
+            "certificate_hash": "991364de6d902529491ee63875f40ace5b647c0b"
+          }
+        },
+        {
+          "client_id": "581217601286-odqorp1n8earsf0uggk60b81flsh8298.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA70HFw6uVddBzG8EeqouzkCB-IubCmqS8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581217601286-odqorp1n8earsf0uggk60b81flsh8298.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
